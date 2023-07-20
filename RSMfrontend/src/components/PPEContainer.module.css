@@ -1,0 +1,64 @@
+.frameChild {
+  position: absolute;
+  top: 39px;
+  left: 71px;
+  width: 334px;
+  height: 232px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 41px;
+  object-fit: cover;
+}
+.frameItem {
+  left: 929px;
+  width: 338px;
+  height: 235px;
+}
+.frameInner {
+  right: 438px;
+  width: 350px;
+  height: 230px;
+}
+.maintainSpeedLimit,
+.wearPpeAnd,
+.wearSeatbeltWhile {
+  position: absolute;
+  top: 281px;
+  left: calc(50% - 614px);
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 397px;
+  height: 66px;
+}
+.maintainSpeedLimit,
+.wearSeatbeltWhile {
+  left: calc(50% - 176px);
+}
+.wearSeatbeltWhile {
+  left: calc(50% + 262px);
+}
+.frameParent,
+.lineIcon {
+  position: absolute;
+  top: 0;
+  left: 525.39px;
+  width: 351.61px;
+  height: 6px;
+}
+.frameParent {
+  top: 2360px;
+  left: 72px;
+  width: 1280px;
+  height: 386px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

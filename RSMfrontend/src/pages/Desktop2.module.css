@@ -1,0 +1,92 @@
+.desktop2Child {
+  position: absolute;
+  top: 438px;
+  left: 260px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.logIn {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 122px;
+  height: 25px;
+  flex-shrink: 0;
+}
+.logInWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0 91px;
+  background-color: #276e96;
+  position: absolute;
+  top: 535px;
+  left: 583px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 305px;
+  height: 67px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+}
+.logIn1 {
+  top: 241px;
+  left: calc(50% - 78px);
+  font-weight: 600;
+  width: 189px;
+  height: 56px;
+}
+.iForgotMy,
+.logIn1,
+.tataSteel,
+.weAlsoMake {
+  position: absolute;
+  display: inline-block;
+}
+.iForgotMy {
+  top: 618px;
+  left: 514px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 418px;
+  height: 27px;
+}
+.tataSteel,
+.weAlsoMake {
+  top: 66px;
+  left: 39px;
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  width: 261px;
+  height: 51px;
+}
+.tataSteel {
+  top: 41px;
+  left: 92px;
+  font-size: var(--font-size-5xl);
+  font-weight: 900;
+  width: 168px;
+  height: 44px;
+}
+.desktop2 {
+  position: relative;
+  width: 100%;
+  height: 993px;
+  overflow: hidden;
+  background-image: url(/public/desktop--21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

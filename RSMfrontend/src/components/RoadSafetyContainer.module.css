@@ -1,0 +1,245 @@
+.roadSafetyDepartment {
+  position: relative;
+}
+.roadSafetyDepartmentWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.roadSafetyDepartment1 {
+  position: absolute;
+  top: 32px;
+  left: 36px;
+  letter-spacing: 0.05em;
+}
+.roadSafetyDepartmentContainer {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 386px;
+  height: 92px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.roadSafetyDepartmentFrame {
+  width: 392px;
+  height: 109px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-white);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-21xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.desktop1Inner {
+  position: absolute;
+  top: 228px;
+  left: 881px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-3xs);
+}
+.button,
+.desktop1Inner,
+.learnMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learnMore {
+  position: relative;
+  letter-spacing: 0.1em;
+  width: 207px;
+  flex-shrink: 0;
+}
+.button {
+  position: absolute;
+  top: 445px;
+  left: 242px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 301px;
+  height: 83px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.desktop1Child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 385px;
+}
+.desktop1Item,
+.rectangleIcon {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.desktop1Item {
+  width: 39.17%;
+  top: 0;
+  right: 60.83%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 383px;
+}
+.rectangleIcon {
+  top: 383px;
+  left: 853px;
+  width: 587px;
+  height: 346px;
+}
+.roadSafetyManagement,
+.roadSafetyManagement1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roadSafetyManagement {
+  top: 175px;
+  right: 58px;
+  color: var(--color-white);
+  width: 749px;
+  height: 97px;
+}
+.roadSafetyManagement1 {
+  top: 17px;
+  left: 37px;
+  letter-spacing: 0.1em;
+  width: 401px;
+  height: 46px;
+}
+.roadSafetyManagementWrapper {
+  position: absolute;
+  top: 65px;
+  right: 215px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 473px;
+  height: 80px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.permitsAreAn {
+  position: absolute;
+  top: 563px;
+  left: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 768px;
+  height: 123px;
+}
+.desktop1Child1 {
+  position: absolute;
+  top: 729px;
+  left: 0;
+  width: 1440px;
+  height: 295px;
+}
+.desktop1Child2,
+.desktop1Child3,
+.rectangleDiv {
+  position: absolute;
+  top: 754px;
+  left: 42px;
+  background-color: var(--color-white);
+  box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+  width: 423px;
+  height: 247px;
+}
+.desktop1Child2,
+.desktop1Child3 {
+  left: 503px;
+}
+.desktop1Child3 {
+  left: 967px;
+}
+.desktop1Child4 {
+  position: absolute;
+  top: 783px;
+  left: 208px;
+  width: 92px;
+  height: 94px;
+  object-fit: cover;
+}
+.totalAppliedPermits {
+  margin: 0;
+}
+.totalAppliedPermitsContainer {
+  position: absolute;
+  top: 926px;
+  left: 117px;
+  font-weight: 900;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  width: 264px;
+}
+.desktop1Child5,
+.frameIcon {
+  position: absolute;
+  top: 786px;
+  left: 666px;
+  width: 93px;
+  height: 93px;
+  object-fit: cover;
+}
+.frameIcon {
+  top: 792px;
+  left: 1130px;
+  width: 81px;
+  height: 87px;
+  overflow: hidden;
+}
+.totalApprovedPermitsContainer,
+.totalPendingPermitsContainer {
+  position: absolute;
+  top: 926px;
+  left: 543px;
+  font-weight: 900;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  width: 364px;
+  height: 76px;
+}
+.totalPendingPermitsContainer {
+  top: 932px;
+  left: 1019px;
+  width: 353px;
+  height: 91px;
+}
+.desktop1 {
+  position: absolute;
+  top: 1022px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,186 @@
+.frameChild {
+  left: 544px;
+  width: 91px;
+  height: 47px;
+  overflow: hidden;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 65px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameItem {
+  left: 663px;
+  width: 50px;
+  height: 48px;
+  overflow: hidden;
+}
+.frameInner {
+  left: 759px;
+  width: 49px;
+  height: 49px;
+}
+.copyrights2023 {
+  position: absolute;
+  top: 209px;
+  left: 15px;
+  font-weight: 900;
+  display: inline-block;
+  width: 472px;
+  height: 24px;
+}
+.frameIcon {
+  position: absolute;
+  top: 206px;
+  left: 1030px;
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+}
+.x2g4g3cKalingaNagar {
+  position: absolute;
+  top: 204px;
+  left: 1074px;
+  font-weight: 900;
+  display: inline-block;
+  width: 354px;
+  height: 38px;
+}
+.frameChild1,
+.frameDiv {
+  position: absolute;
+  top: 249px;
+  left: 1042px;
+  width: 32px;
+  height: 16px;
+  overflow: hidden;
+}
+.frameChild1 {
+  top: 161px;
+  left: 1028px;
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+}
+.div {
+  position: absolute;
+  top: 175px;
+  left: 1074px;
+  font-weight: 900;
+  display: inline-block;
+  width: 339px;
+  height: 34px;
+}
+.frameParent {
+  position: absolute;
+  top: 776px;
+  left: -1px;
+  background-color: var(--color-silver-200);
+  width: 1438px;
+  height: 248px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+}
+.desktop3Child {
+  position: absolute;
+  top: 43px;
+  left: 480px;
+  background: linear-gradient(180deg, #d9d9d9, rgba(217, 217, 217, 0) 0.01%);
+  width: 371px;
+  height: 293px;
+}
+.image2Icon,
+.image2Icon1 {
+  position: absolute;
+  top: 54px;
+  left: 50px;
+  width: 584px;
+  height: 306px;
+  object-fit: cover;
+}
+.image2Icon1 {
+  top: 415px;
+}
+.desktop3Item {
+  position: absolute;
+  top: 117px;
+  left: 861px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-turquoise);
+  width: 579px;
+  height: 107px;
+}
+.desktop3Inner {
+  top: 268px;
+  left: 861px;
+  background-color: var(--color-silver-200);
+}
+.desktop3Inner,
+.rectangleDiv,
+.rectangleIcon {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  width: 579px;
+  height: 107px;
+}
+.rectangleDiv {
+  top: 419px;
+  left: 861px;
+  background-color: var(--color-turquoise);
+}
+.rectangleIcon {
+  top: 572px;
+  left: 858px;
+}
+.mostFrequentlyAsked {
+  position: absolute;
+  top: 43px;
+  left: 873px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  width: 554px;
+  height: 53px;
+}
+.areThereAny,
+.whatAreThe,
+.whatIsThe,
+.whatResourcesOr {
+  position: absolute;
+  top: 147px;
+  left: 891px;
+  display: inline-block;
+  width: 549px;
+  height: 37px;
+}
+.areThereAny,
+.whatAreThe,
+.whatResourcesOr {
+  top: 293px;
+  left: 889px;
+  width: 554px;
+}
+.areThereAny,
+.whatResourcesOr {
+  top: 444px;
+}
+.whatResourcesOr {
+  top: 595px;
+  left: 890px;
+}
+.desktop3 {
+  position: absolute;
+  top: 3035px;
+  left: -2px;
+  background-color: var(--color-lightgray-200);
+  width: 1440px;
+  height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

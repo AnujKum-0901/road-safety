@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-fredoka-one: "Fredoka One";
+  --font-inria-serif: "Inria Serif";
+  --font-archivo: Archivo;
+  --font-istok-web: "Istok Web";
+  --font-open-sans: "Open Sans";
+  --font-dm-serif-display: "DM Serif Display";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-7xl: 26px;
+  --font-size-21xl: 40px;
+  --font-size-77xl: 96px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-steelblue-100: #438fba;
+  --color-white: #fff;
+  --color-gray-100: #fdfdfd;
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0.56);
+  --color-lightgray-200: #d3d3d3;
+  --color-lightgray-100: #ccc;
+  --color-snow: rgba(252, 249, 249, 0.88);
+  --color-silver-100: #c4c4c4;
+  --color-silver-200: #c2bcbc;
+  --color-turquoise: #40e8ca;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-21xl: 40px;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-lgi: 19px;
+  --br-8xs: 5px;
+  --br-xl: 20px;
+}

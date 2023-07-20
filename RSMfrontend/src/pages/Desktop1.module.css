@@ -1,0 +1,99 @@
+.desktop1Child {
+  position: absolute;
+  top: 2100px;
+  left: 0;
+  background-color: var(--color-silver-100);
+  overflow-x: hidden;
+  height: 260px;
+}
+.desktop1Item,
+.newsAndAlerts {
+  position: absolute;
+  top: 2779px;
+  left: 249px;
+  width: 142px;
+  height: 79px;
+}
+.newsAndAlerts {
+  top: 2122px;
+  left: 543px;
+  font-size: var(--font-size-13xl);
+  font-weight: 900;
+  display: inline-block;
+  width: 447px;
+  height: 91px;
+}
+.desktop1Inner {
+  position: absolute;
+  top: 2109px;
+  left: 867px;
+  width: 80px;
+  height: 59px;
+  object-fit: cover;
+}
+.desktop1Child1,
+.desktop1Child2,
+.desktop1Child3,
+.rectangleIcon {
+  position: absolute;
+  top: 2182px;
+  left: 21px;
+  width: 42px;
+  height: 30px;
+  object-fit: cover;
+}
+.desktop1Child1,
+.desktop1Child2,
+.desktop1Child3 {
+  top: 2219px;
+}
+.desktop1Child2,
+.desktop1Child3 {
+  top: 2256px;
+}
+.desktop1Child3 {
+  top: 2293px;
+}
+.employeeTrainingProgram,
+.roadSafetyWeek,
+.tataSteelKalinganagar,
+.tataSteelKalinganagar1 {
+  position: absolute;
+  top: 2187px;
+  left: 72px;
+  font-weight: 600;
+  display: inline-block;
+  width: 1277px;
+  height: 62px;
+}
+.employeeTrainingProgram,
+.roadSafetyWeek,
+.tataSteelKalinganagar1 {
+  top: 2226px;
+  height: 59px;
+}
+.roadSafetyWeek,
+.tataSteelKalinganagar1 {
+  top: 2266px;
+}
+.roadSafetyWeek {
+  top: 2304px;
+}
+.desktop1Child4 {
+  position: absolute;
+  top: 2696px;
+  left: 0;
+  width: 1434px;
+  height: 307px;
+  object-fit: cover;
+}
+.desktop1 {
+  position: relative;
+  background-color: var(--color-white);
+  height: 4059px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
